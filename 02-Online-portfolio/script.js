@@ -1,13 +1,13 @@
 function projects(){
-    window.location.href='./projects.html';
+    window.location.href='projects.html';
 }
 
 function resume(){
-    window.location.href='./resume.html';
+    window.location.href='resume.html';
 }
 
 function contact(){
-    window.location.href='./contacts.html';
+    window.location.href='contacts.html';
 }
 
 
