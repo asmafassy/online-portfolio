@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  color: black;
+  background-color: rgb(236, 233, 229);
+}
+
+.container {
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo, .nav{
+  width: 50%;
+  padding: 50px;
+}
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(80, 75, 75);
+}
+.title {
+  float: left;
+  width: 70%;
+}
+.name {
+  font-size: 20px;
+  font-weight: bolder;
+  
+  float: left;
+}
+.titleByName {
+    margin: 5px 5px;
+  float: left;
+}
+.info{
+    font-size: 20px;
+    font-weight: bold;
+}
+.circle1 {
+  margin-right: 10px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #faa116;
+  float: left;
+}
+
+
+.wrapper{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+    }
+
+.hero-image {
+  width: 450px;
+  border-radius: 50%;
+}
+.image1 {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+}
+.splash {
+  width: 50%;
+}
+
+.hello{
+    font-family: worksans-semibold,'work sans',sans-serif;
+    margin: 0;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.circle {
+  display: inline-block;
+  margin: 10px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 20px;
+  border: 1px solid;
+}
+.circle.projects {
+  background-color: #ff3b25;
+}
+
+.circle.contact {
+  background-color: #80d8da;
+}
+.circle.resume-circle{
+  background-color: #faa116;
+}
+.circle:hover{
+    background-color: blanchedalmond;
+}
+.project img{
+    width: 490px;
+    height: 350px;
+    padding: 50px;
+}
+.project{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px;
+}
+
+
+/*------------------------- R E S U M E-------------------------  */
+.container{
+  width: 100%;
+}
+
+.titleResume{
+font-weight: bolder;
+font-size: 40px;
+}
+.resume-container{
+  width: 75%;
+  margin:0 auto;
+  padding: 50px 0;
+}
+.resume-wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+.resume-title{
+  width: 50%;
+}
+.resume{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  border-bottom: 1px solid rgb(197, 192, 192);
+}
+.resume:last-child{
+  border-bottom: 0;
+}
+.details-wrapper{
+  width: 50%;
+}
+.details{
+  display: flex;
+  justify-content: space-evenly;
+}
+.duration{
+  float: left;
+  width:30%;
+}
+.description{
+  float:right;
+  width: 70%;
+}
+.boldTxt{
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+
+/* C O N T A C T----- */
+
+
+.contacts_wrapper{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 100%;
+  padding: 25px;
+  border-radius: 5px ;
+  }
+  .contacts_wrapper h2{
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color-adjust: #332902;
+  }
+  
+  .contacts_wrapper .input_field{
+      margin-bottom: 10px;
+  }
+  .contacts_wrapper .input_field input[type="text"],
+  .contacts_wrapper textarea{
+      width: 100%;
+      border: 1px solid #e0e0e0;
+      padding: 10px;
+  }
+  .contacts_wrapper textarea{
+      height: 80px;
+      resize: none;
+  }
+  .contacts_wrapper .btn input[type="submit"]{
+      margin: 10px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 1px solid;
+    cursor: pointer;
+  }
+  
+  .contacts_wrapper #error_message{
+      margin-bottom: 20px;
+      padding: 0px;
+      background-color: #fe8b8e;
+      text-align: center;
+      font-size: 14px;
+      transition: all 0.5s ease;
+  
+  }
+
+
+  /* F O O T E R */
+  
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  border-top: 1px solid rgb(197, 192, 192);
+  margin-top: 100px;
+}
+.footerTxt{
+  font-weight: bolder;
+  font-size: 20px;
+}
